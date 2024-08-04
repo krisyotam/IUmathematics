@@ -2,12 +2,10 @@
   <img src="https://github.com/user-attachments/assets/a8b61771-f3bd-42f5-b42b-69a3e2aa2e08" style="width: 1200px;" alt="Image Description">
 </a>
 
-<br>
-
-Degree: Mathematics BS, Pure Mathematics
-School: Indiana University Bloomington
-Contact: colema2@iu.edu
-Name: Kris Yotam
+Degree: Mathematics BS, Pure Mathematics  
+School: Indiana University Bloomington  
+Contact: colema2@iu.edu  
+Name: Kris Yotam  
 
 Social Profiles:
 - ORCID ID: 
