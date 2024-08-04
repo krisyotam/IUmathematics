@@ -1,5 +1,5 @@
 <a href="https://github.com/user-attachments/assets/a8b61771-f3bd-42f5-b42b-69a3e2aa2e08">
-  <img src="https://github.com/user-attachments/assets/a8b61771-f3bd-42f5-b42b-69a3e2aa2e08" style="width: 1000px;" alt="Image Description">
+  <img src="https://github.com/user-attachments/assets/a8b61771-f3bd-42f5-b42b-69a3e2aa2e08" style="width: 1200px;" alt="Image Description">
 </a>
 
 Degree: Mathematics BS, Pure Mathematics
