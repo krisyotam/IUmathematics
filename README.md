@@ -4,7 +4,7 @@
 
 ---
 
-### Mathematics BS Repository
+### IU Mathematics
 
 **Degree**: Mathematics BS, Pure Mathematics  
 **School**: Indiana University Bloomington  
