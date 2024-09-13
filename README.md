@@ -1,6 +1,8 @@
-<a href="https://github.com/user-attachments/assets/a8b61771-f3bd-42f5-b42b-69a3e2aa2e08">
-  <img src="https://github.com/user-attachments/assets/a8b61771-f3bd-42f5-b42b-69a3e2aa2e08" style="width: max;" alt="Image Description">
-</a>
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/user-attachments/assets/339f9d16-3361-4c51-b340-74e994990fd7" style="max-width: 1000px;">
+</div>
+
+
 ---
 
 ### IU Mathematics
