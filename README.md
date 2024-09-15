@@ -1,5 +1,5 @@
-<div style="display: flex; justify-content: center;">
-    <img src="https://github.com/user-attachments/assets/339f9d16-3361-4c51-b340-74e994990fd7" style="max-width: 1000px;">
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/de12c96b-8f87-457f-a30f-b02ce1343d83" alt="Indiana University Seal" style="width: 50%; height: auto;">
 </div>
 
 
