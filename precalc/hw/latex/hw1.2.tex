@@ -1,1 +1,418 @@
-Filler
+\documentclass{article}
+\usepackage{amsmath}
+
+\title{HW 1.2 Distance, Midpoint, Circles}
+\author{Kris Yotam}
+\date{09/02/2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Questions and Solutions}
+
+\textbf{Question 1:} The Pythagorean theorem can be used to derive the distance formula by thinking of the segment joining two points as the \underline{\textbf{hypotenuse}} of a right triangle.
+
+\textbf{Question 2:} Decide if the given values for sides \(a\), \(b\), and \(c\) of a triangle determine a right triangle. The choices are: yes, and no. The answer is yes. Use the Pythagorean theorem to prove this.
+
+\textbf{Solution:}
+To determine if a triangle is a right triangle, we use the Pythagorean theorem. If \(a^2 + b^2 = c^2\), then the triangle is a right triangle.
+
+\textbf{Question 3:} Find the distance between the two points \((-9, -5)\) and \((18, -125)\). Give an exact answer using radicals as needed and show work.
+
+\textbf{Solution:}
+The distance formula is:
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+Substitute the given points \((-9, -5)\) and \((18, -125)\):
+\[
+d = \sqrt{(18 - (-9))^2 + (-125 - (-5))^2}
+\]
+\[
+d = \sqrt{(18 + 9)^2 + (-125 + 5)^2}
+\]
+\[
+d = \sqrt{27^2 + (-120)^2}
+\]
+\[
+d = \sqrt{729 + 14400}
+\]
+\[
+d = \sqrt{15129}
+\]
+\[
+d = \boxed{\sqrt{15129}}
+\]
+
+\textbf{Question 4:} Find the distance between the pair of points \((3, 4, -\frac{7}{2})\) and \((\frac{1}{4}, -\frac{1}{2})\). Show the work and box the answer at the end.
+
+\textbf{Solution:}
+The distance formula in 3D is:
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
+\]
+Substitute the given points \((3, 4, -\frac{7}{2})\) and \((\frac{1}{4}, -\frac{1}{2}, 0)\):
+\[
+d = \sqrt{\left(\frac{1}{4} - 3\right)^2 + \left(-\frac{1}{2} - 4\right)^2 + \left(0 - \left(-\frac{7}{2}\right)\right)^2}
+\]
+\[
+d = \sqrt{\left(-\frac{11}{4}\right)^2 + \left(-\frac{9}{2}\right)^2 + \left(\frac{7}{2}\right)^2}
+\]
+\[
+d = \sqrt{\frac{121}{16} + \frac{81}{4} + \frac{49}{4}}
+\]
+\[
+d = \sqrt{\frac{121}{16} + \frac{130}{4}}
+\]
+\[
+d = \sqrt{\frac{121 + 520}{16}}
+\]
+\[
+d = \sqrt{\frac{641}{16}}
+\]
+\[
+d = \boxed{\frac{\sqrt{641}}{4}}
+\]
+
+\textbf{Question 6:} Find the midpoint of the segment with the given endpoints \((7, -1)\) and \((-3, 7)\). Show the work using the midpoint formula and box the answer as an ordered pair.
+
+\textbf{Solution:}
+The midpoint formula is:
+\[
+\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)
+\]
+Substitute the given endpoints \((7, -1)\) and \((-3, 7)\):
+\[
+\text{Midpoint} = \left(\frac{7 + (-3)}{2}, \frac{-1 + 7}{2}\right)
+\]
+\[
+\text{Midpoint} = \left(\frac{4}{2}, \frac{6}{2}\right)
+\]
+\[
+\text{Midpoint} = \boxed{(2, 3)}
+\]
+
+\textbf{Question 7:} Find the midpoint of the line segment whose endpoints are given \((2a, -4b)\) and \((8a, 9b)\). Show the work using the midpoint formula and box the answer as an ordered pair.
+
+\textbf{Solution:}
+The midpoint formula is:
+\[
+\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)
+\]
+Substitute the given endpoints \((2a, -4b)\) and \((8a, 9b)\):
+\[
+\text{Midpoint} = \left(\frac{2a + 8a}{2}, \frac{-4b + 9b}{2}\right)
+\]
+\[
+\text{Midpoint} = \left(\frac{10a}{2}, \frac{5b}{2}\right)
+\]
+\[
+\text{Midpoint} = \boxed{(5a, \frac{5b}{2})}
+\]
+
+\textbf{Question 8:} Estimated and projected enrollments in two-year colleges for 2016, 2020, and 2024 are shown in the table. Use the midpoint formula to estimate the enrollments for 2018 and 2022. The enrollments per year as ordered pairs are \((2016, 6.5)\), \((2020, 7.5)\), and \((2024, 8.0)\). Show the work to arrive at the answer then write the answer as ordered pairs.
+
+\textbf{Solution:}
+To estimate the enrollments for 2018 and 2022, use the midpoint formula on the given points:
+\[
+\text{For 2018: } \left(\frac{2016 + 2020}{2}, \frac{6.5 + 7.5}{2}\right) = (2018, 7.0)
+\]
+\[
+\text{For 2022: } \left(\frac{2020 + 2024}{2}, \frac{7.5 + 8.0}{2}\right) = (2022, 7.75)
+\]
+
+Thus:
+\[
+\text{The enrollment for 2018 is } \boxed{7.0} \text{ million and for 2022 is } \boxed{7.75} \text{ million.}
+\]
+
+\textbf{Question 9:} One endpoint of a line segment is \((7, -8)\) and its other endpoint is \((9, 9)\). Find the other endpoint of the line segment using the endpoint formula or inverse midpoint formula. Box the answer as an ordered pair.
+
+\textbf{Solution:}
+Given one endpoint \((7, -8)\) and the midpoint \((9, 9)\), find the other endpoint:
+\[
+\text{Let } (x, y) \text{ be the other endpoint.}
+\]
+\[
+\text{Midpoint formula: } \left(\frac{7 + x}{2}, \frac{-8 + y}{2}\right) = (9, 9)
+\]
+\[
+\frac{7 + x}{2} = 9 \text{ and } \frac{-8 + y}{2} = 9
+\]
+\[
+7 + x = 18 \text{ and } -8 + y = 18
+\]
+\[
+x = 11 \text{ and } y = 26
+\]
+
+Thus:
+\[
+\text{Other Endpoint: } \boxed{(11, 26)}
+\]
+
+\textbf{Question 10:} Find the center and the radius of the circle \((x-1)^2 + (y+2)^2 = 25\). The center is \((h, k)\) and radius \(r\). Type the center as an ordered pair and simplify the radius. Box them separately.
+
+\textbf{Solution:}
+The equation is in standard form:
+\[
+(x - h)^2 + (y - k)^2 = r^2
+\]
+\[
+\text{Comparing with } (x-1)^2 + (y+2)^2 = 25:
+\]
+\[
+\text{Center } (h, k) = (1, -2)
+\]
+\[
+\text{Radius } r = \sqrt{25} = 5
+\]
+
+Thus:
+\[
+\text{Center: } \boxed{(1, -2)}
+\]
+\[
+\text{Radius: } \boxed{5}
+\]
+
+\textbf{Question 11:} Find the center and the radius given the equation \((x-5)^2 + y^2 = 36\). Box them separately.
+
+\textbf{Solution:}
+The equation is in standard form:
+\[
+(x - h)^2 + (y - k)^2 = r^2
+\]
+\[
+\text{Comparing with } (x-5)^2 + y^2 = 36:
+\]
+\[
+\text{Center } (h, k) = (5, 0)
+\]
+\[
+\text{Radius } r = \sqrt{36} = 6
+\]
+
+Thus:
+\[
+\text{Center: } \boxed{(5, 0)}
+\]
+\[
+\text{Radius: } \boxed{6}
+\]
+
+\textbf{Question 12:} With a center given \((-2, -1)\) and a radius of 2, put this circle in standard form.
+
+\textbf{Solution:}
+The standard form of the circle's equation is:
+\[
+(x - h)^2 + (y - k)^2 = r^2
+\]
+\[
+\text{Substitute the center } (-2, -1) \text{ and radius } 2:
+\]
+\[
+(x + 2)^2 + (y + 1)^2 = 2^2
+\]
+\[
+(x + 2)^2 + (y + 1)^2 = 4
+\]
+
+Thus:
+\[
+\text{Standard Form: } \boxed{(x + 2)^2 + (y + 1)^2 = 4}
+\]
+
+\textbf{Question 13:} Find the equation for the circle with a diameter whose endpoints are \((-2, -1)\) and \((5, 2)\). First find the center using the midpoint formula, then find the radius using the distance formula, and box the standard form equation.
+
+\textbf{Solution:}
+\textbf{1. Find the Center:}
+\[
+\text{Midpoint formula: } \left(\frac{-2 + 5}{2}, \frac{-1 + 2}{2}\right)
+\]
+\[
+\text{Center } = \left(\frac{3}{2}, \frac{1}{2}\right)
+\]
+
+\textbf{2. Find the Radius:}
+\[
+\text{Use distance formula between } (-2, -1) \text{ and } \left(\frac{3}{2}, \frac{1}{2}\right):
+\]
+\[
+d = \sqrt{\left(\frac{3}{2} - (-2)\right)^2 + \left(\frac{1}{2} - (-1)\right)^2}
+\]
+\[
+d = \sqrt{\left(\frac{7}{2}\right)^2 + \left(\frac{3}{2}\right)^2}
+\]
+\[
+d = \sqrt{\frac{49}{4} + \frac{9}{4}}
+\]
+\[
+d = \sqrt{\frac{58}{4}} = \sqrt{14.5}
+\]
+\[
+\text{Radius } = \frac{\sqrt{58}}{2}
+\]
+
+\textbf{3. Standard Form Equation:}
+\[
+\left(x - \frac{3}{2}\right)^2 + \left(y - \frac{1}{2}\right)^2 = \left(\frac{\sqrt{58}}{2}\right)^2
+\]
+\[
+\left(x - \frac{3}{2}\right)^2 + \left(y - \frac{1}{2}\right)^2 = \frac{58}{4}
+\]
+\[
+\text{Standard Form: } \boxed{\left(x - \frac{3}{2}\right)^2 + \left(y - \frac{1}{2}\right)^2 = \frac{58}{4}}
+\]
+
+\textbf{Question 14:} Find the center and the radius given the equation in standard form: \((x-7)^2 + (y + 4)^2 = 4\).
+
+\textbf{Solution:}
+The equation is in standard form:
+\[
+(x - h)^2 + (y - k)^2 = r^2
+\]
+\[
+\text{Comparing with } (x-7)^2 + (y + 4)^2 = 4:
+\]
+\[
+\text{Center } (h, k) = (7, -4)
+\]
+\[
+\text{Radius } r = \sqrt{4} = 2
+\]
+
+Thus:
+\[
+\text{Center: } \boxed{(7, -4)}
+\]
+\[
+\text{Radius: } \boxed{2}
+\]
+
+\textbf{Question 15:} Find the center and radius given the equation \(x^2 + (y-4)^2 = 16\).
+
+\textbf{Solution:}
+The equation is in standard form:
+\[
+(x - h)^2 + (y - k)^2 = r^2
+\]
+\[
+\text{Comparing with } x^2 + (y-4)^2 = 16:
+\]
+\[
+\text{Center } (h, k) = (0, 4)
+\]
+\[
+\text{Radius } r = \sqrt{16} = 4
+\]
+
+Thus:
+\[
+\text{Center: } \boxed{(0, 4)}
+\]
+\[
+\text{Radius: } \boxed{4}
+\]
+
+\textbf{Question 16:} If possible, write the general equation of a circle in standard form by completing the square, and identify the center and radius. The equation given is \(x^2 + 4x + y^2 - 10y = -25\). Show the complete work and box the equation, radius, and center separately.
+
+\textbf{Solution:}
+\textbf{1. Rewrite the Equation:}
+\[
+x^2 + 4x + y^2 - 10y = -25
+\]
+
+\textbf{2. Complete the Square:}
+
+For \(x\):
+\[
+x^2 + 4x \text{ can be written as } (x + 2)^2 - 4
+\]
+
+For \(y\):
+\[
+y^2 - 10y \text{ can be written as } (y - 5)^2 - 25
+\]
+
+\textbf{3. Substitute and Simplify:}
+\[
+(x + 2)^2 - 4 + (y - 5)^2 - 25 = -25
+\]
+\[
+(x + 2)^2 + (y - 5)^2 - 29 = -25
+\]
+\[
+(x + 2)^2 + (y - 5)^2 = 4
+\]
+
+Thus:
+\[
+\text{Standard Form Equation: } \boxed{(x + 2)^2 + (y - 5)^2 = 4}
+\]
+\[
+\text{Center: } \boxed{(-2, 5)}
+\]
+\[
+\text{Radius: } \boxed{2}
+\]
+
+\textbf{Question 17:} Given the equation \(4x^2 + 12x + 4y^2 - 32y - 27 = 0\), find the equation of the circle in standard form. Also, determine the center and radius of the circle. Show all work and box answers separately.
+
+\textbf{Solution:}
+\textbf{1. Factor out the 4:}
+\[
+4(x^2 + 3x + y^2 - 8y) = 27
+\]
+
+\textbf{2. Complete the Square:}
+
+For \(x\):
+\[
+x^2 + 3x \text{ can be written as } (x + \frac{3}{2})^2 - \left(\frac{3}{2}\right)^2
+\]
+\[
+x^2 + 3x = (x + \frac{3}{2})^2 - \frac{9}{4}
+\]
+
+For \(y\):
+\[
+y^2 - 8y \text{ can be written as } (y - 4)^2 - 16
+\]
+\[
+y^2 - 8y = (y - 4)^2 - 16
+\]
+
+\textbf{3. Substitute Back and Simplify:}
+\[
+4 \left[(x + \frac{3}{2})^2 - \frac{9}{4} + (y - 4)^2 - 16\right] = 27
+\]
+\[
+4 (x + \frac{3}{2})^2 + 4 (y - 4)^2 - 4 \left(\frac{9}{4} + 16\right) = 27
+\]
+\[
+4 (x + \frac{3}{2})^2 + 4 (y - 4)^2 - 73 = 27
+\]
+\[
+4 (x + \frac{3}{2})^2 + 4 (y - 4)^2 = 100
+\]
+\[
+(x + \frac{3}{2})^2 + (y - 4)^2 = \frac{100}{4}
+\]
+\[
+(x + \frac{3}{2})^2 + (y - 4)^2 = 25
+\]
+
+Thus:
+\[
+\text{Standard Form Equation: } \boxed{(x + \frac{3}{2})^2 + (y - 4)^2 = 25}
+\]
+\[
+\text{Center: } \boxed{\left(-\frac{3}{2}, 4\right)}
+\]
+\[
+\text{Radius: } \boxed{5}
+\]
+
+\end{document}
